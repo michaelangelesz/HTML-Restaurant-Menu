@@ -58,8 +58,8 @@ nav a:hover {
 }
 
 #banner {
-    width: auto;
-    height: 333px;
+    width: 100%;
+    height: auto;
     background-color: white;
 }
 
@@ -114,5 +114,4 @@ ul {
     padding: 10px;
     text-align: center;
     text-decoration-color: rgb(148, 224, 144);
-    z-index: 1;
   }
