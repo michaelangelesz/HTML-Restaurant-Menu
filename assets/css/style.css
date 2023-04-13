@@ -95,3 +95,8 @@ ul {
     display: flex; 
     justify-content: center; 
   }
+
+  /* make navbar highlight the current page link a lighter green */
+  nav ul li a.active {
+    color: rgb(148, 224, 144)
+  }
