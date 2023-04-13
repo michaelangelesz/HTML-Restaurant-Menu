@@ -4,6 +4,7 @@ body {
     padding: 200;
     background-color: beige;
     text-align: center;
+    margin-top: 40px;
 }
 
 h1,
@@ -98,5 +99,20 @@ ul {
 
   /* make navbar highlight the current page link a lighter green */
   nav ul li a.active {
-    color: rgb(148, 224, 144)
+    color: rgb(148, 224, 144);
+  }
+
+  /* styling for next holiday banner at top of page */
+  .banner {
+    background-color: darkred;
+    font-size: x-large;
+    color: rgb(148, 224, 144);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    text-decoration-color: rgb(148, 224, 144);
+    z-index: 1;
   }
