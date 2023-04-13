@@ -58,8 +58,8 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 333px;
     background-color: white;
 }
 
