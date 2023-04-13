@@ -1,7 +1,7 @@
 html,
 body {
     margin: 0;
-    padding: 0;
+    padding: 200;
     background-color: beige;
     text-align: center;
 }
@@ -36,6 +36,9 @@ nav {
 nav ul {
     list-style-type: none;
     text-align: center;
+    list-style: none; 
+    display: flex; 
+    justify-content: center;
 }
 
 nav li {
@@ -86,3 +89,9 @@ th {
     border: 1px solid black;
     padding: 5px;
 }
+
+ul {
+    list-style: none; 
+    display: flex; 
+    justify-content: center; 
+  }
